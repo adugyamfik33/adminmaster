@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/welcome.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <section>
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx"><img src="assets/images/welcome-image1.jpg" alt="" /></div>
+          <div class="formBx">
+            <form id="login-form">
+              <h2>Sign In</h2>
+              <input type="text" name="" placeholder="Username" />
+              <input type="password" name="" placeholder="Password" />
+              <!-- <input type="submit" name="" value="Login" /> -->
+              <a class="btn btn-primary" href="dashboard">Login</a>
+              <p class="signup">
+                Don't have an account ?
+                <a href="#" onclick="toggleForm();">Sign Up.</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user signupBx">
+          <div class="formBx">
+            <form id="register-form">
+              <h2>Create an account</h2>
+              <input type="text" name="" placeholder="Username" />
+              <input type="email" name="" placeholder="Email Address" />
+              <input type="password" name="" placeholder="Create Password" />
+              <input type="password" name="" placeholder="Confirm Password" />
+              <!-- <input type="submit" name="" value="Sign Up" /> -->
+              <a class="btn btn-primary" href="dashboard">Sign Up</a>
+              <p class="signup">
+                Already have an account ?
+                <a href="#" onclick="toggleForm();">Sign in.</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx"><img src="assets/images/welcome-image2.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="assets/js/welcome.js"></script>
